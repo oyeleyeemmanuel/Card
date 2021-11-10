@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 657px;
+    min-height: 100vh;
+    background: linear-gradient(to top right, rgb(132, 230, 132), rgb(212, 96, 115));
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    outline: solid;
+    background: linear-gradient(to top left, rgb(192, 192, 14), rgb(151, 161, 54));
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 5%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0% 10px;
+}
+
+.logo img{
+    width: 100%;
+    height: 40px;
+
+}
+
+.list{
+    flex: 0.9;
+    margin-left: 50px;
+}
+
+.list a{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 1.3em;
+    margin: 0% 10px;
+    letter-spacing: 3px;
+    transform: scale(1);
+    transition: all 500em;
+}
+
+.list a:hover{
+    transform: scale(0.8);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.account ima{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 1.3em;
+    margin: 0% 10px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, rgba(12, 12, 12, 0.671), rgba(228, 228, 173, 0.397) );
+    transform: scale(1);
+    transition: all 350ms;
+    cursor: progress;
+}
+
+.account ima:hover{
+    transform: scale(0.6);
+    color: blue;
+}
+
+header{
+    width: 100%;
+    height: 596px;
+    display: flex;
+}
+
+.frontend{
+    width: 60%;
+    height: 200px;
+    margin: 10% 8%;
+}
+
+.frontend h4{
+    font-family: 'Times New Roman';
+    font-size: 1.5em;
+}
+
+.frontend h1{
+    font-family: arial black;
+    font-size: 2.5em;
+}
+
+.frontend h5{
+    font-family: serif;
+    font-size: 2em;
+}
+
+button{
+    margin-top: 10px;
+}
+ 
+button h3{
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 1.5em;
+    transform: scale(1);
+    transition: all 350ms;
+}
+button h3:hover{
+    transform: scale(0.8);
+    color: blue;
+}
+
+.image{
+    width: 40%;
+    height: 529px;
+    position: relative;
+    margin-top: 5%;
+
+}
+
+.photo{
+    width: 100%;
+    height: 529px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.photo img{
+    width: 100%;
+    height: 800px;
+}

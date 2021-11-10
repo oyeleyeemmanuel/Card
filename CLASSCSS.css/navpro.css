@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen ;
+}
+
+.logo{
+    width: 5%;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 100%;
+    height: 45px;
+}
+
+.icons{
+    display: flex;
+    flex: 0.9;
+
+}
+
+.items{
+    margin: 0% 25px;
+}
+
+.user{
+    width: 4%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+.main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.main1{
+    width: 30%;
+    height: 300px;
+    border: solid;
+    border-radius: 10px;
+    margin: 1% 30px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
